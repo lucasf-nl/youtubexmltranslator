@@ -1,0 +1,14 @@
+[package]
+name = "youtubexmltranslator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ascii = "1.1.0"
+chrono = "0.4.38"
+reqwest = "0.12.5"
+serde = { version = "1.0.204", features = ["derive"] }
+serde-xml-rs = "0.6.0"
+tiny_http = "0.12.0"
+tokio = { version = "1.38.1", features = ["full"] }
+xml-rs = "0.8.20"
